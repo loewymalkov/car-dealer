@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using Models;
 
 namespace Dealership 
 {
@@ -40,11 +39,11 @@ namespace Dealership
         {
           foreach(Car automobile in CarsMatchingSearch)
         {
-          Console.WriteLine("------------------------");
-          Console.WriteLine(automobile.MakeModel);
-          Console.WriteLine(automobile.Details);
-          Console.WriteLine(automobile.Miles);
-          Console.WriteLine("$" + automobile.Price);
+          Console.WriteLine("-------------------------------");
+          Console.WriteLine(automobile.GetMakeModel());
+          Console.WriteLine(automobile.GetDetails());
+          Console.WriteLine(automobile.GetMiles());
+          Console.WriteLine("$" + automobile.GetPrice());
         }
         }
     }

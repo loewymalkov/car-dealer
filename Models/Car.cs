@@ -1,31 +1,49 @@
 
-namespace Models
+using System;
+
+namespace Dealership
 {
-class Car
-  {
-    public string MakeModel;
-    public int Price;
-    public int Miles;
-    public string Details;
-
-    public Car(string makeModel, int price, int miles, string details)
+  class Car
     {
-      MakeModel = makeModel;
-      Price = price;
-      Miles = miles;
-      Details = details;
-    }
+      private string _makeModel;
+      private int _price;
+      private int _miles;
+      private string _details;
 
-    public bool WorthBuying(int maxPrice, int maxMiles)
-    {
-      if ((Price < maxPrice) && (Miles < maxMiles))
+      public Car(string makeModel, int price, int miles, string details)
       {
-      return true;   
-      } 
-      else 
+        _makeModel = makeModel;
+        _price = price;
+        _miles = miles;
+        _details = details;
+      }
+
+      public string GetMakeModel()
       {
-      return false;
+        return _makeModel;
+      }
+      public int GetPrice()
+      {
+        return _price;
+      }
+      public int GetMiles()
+      {
+        return _miles;
+      }
+      public string GetDetails()
+      {
+        return _details;
+      }
+      public bool WorthBuying(int maxPrice, int maxMiles)
+      {
+        if ((_price < maxPrice) && (_miles < maxMiles))
+        {
+        return true;   
+        } 
+        else 
+        {
+        return false;
+        }
       }
     }
-  }
 }
