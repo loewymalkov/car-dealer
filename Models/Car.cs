@@ -1,4 +1,3 @@
-
 using System;
 
 namespace Dealership
@@ -44,6 +43,11 @@ namespace Dealership
         {
         return false;
         }
+      }
+
+      public void SetPrice(int newPrice)
+      {
+        _price = newPrice;
       }
     }
 }
