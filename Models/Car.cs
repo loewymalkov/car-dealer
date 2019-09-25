@@ -33,6 +33,15 @@ namespace Dealership
       {
         return _details;
       }
+
+      public static string MakeSound(string sound)
+      {
+        return "These badboys sound like " + sound;
+      }
+      public void SetPrice(int newPrice)
+      {
+        _price = newPrice;
+      }
       public bool WorthBuying(int maxPrice, int maxMiles)
       {
         if ((_price < maxPrice) && (_miles < maxMiles))
@@ -45,9 +54,5 @@ namespace Dealership
         }
       }
 
-      public void SetPrice(int newPrice)
-      {
-        _price = newPrice;
-      }
     }
 }
