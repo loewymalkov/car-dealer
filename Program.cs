@@ -15,7 +15,7 @@ namespace Dealership
       List<Car> Cars = new List<Car>() { volkswagen, yugo, ford, amc };
 
       Console.WriteLine("\nWelcome to Lolly's Bitchin' TrashBoxes!");
-      Car.MakeSound("whip");
+      Console.WriteLine(Car.MakeSound("bang bang hiss whip!"));
 
       yugo.SetPrice(350);
       Console.WriteLine("\n---------------------------------------------- \n Ongoing Sale! Save big on your dream sh*tbox! \n----------------------------------------------");
