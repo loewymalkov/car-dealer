@@ -9,3 +9,14 @@
 /Users/Guest/Desktop/car-dealership/bin/Debug/netcoreapp2.2/Dealership.pdb
 /Users/Guest/Desktop/car-dealership/obj/Debug/netcoreapp2.2/Dealership.dll
 /Users/Guest/Desktop/car-dealership/obj/Debug/netcoreapp2.2/Dealership.pdb
+/Users/loewymalkovich/Desktop/Epicodus/car-dealer/bin/Debug/netcoreapp2.2/Dealership.deps.json
+/Users/loewymalkovich/Desktop/Epicodus/car-dealer/bin/Debug/netcoreapp2.2/Dealership.runtimeconfig.json
+/Users/loewymalkovich/Desktop/Epicodus/car-dealer/bin/Debug/netcoreapp2.2/Dealership.runtimeconfig.dev.json
+/Users/loewymalkovich/Desktop/Epicodus/car-dealer/bin/Debug/netcoreapp2.2/Dealership.dll
+/Users/loewymalkovich/Desktop/Epicodus/car-dealer/bin/Debug/netcoreapp2.2/Dealership.pdb
+/Users/loewymalkovich/Desktop/Epicodus/car-dealer/obj/Debug/netcoreapp2.2/Dealership.csprojAssemblyReference.cache
+/Users/loewymalkovich/Desktop/Epicodus/car-dealer/obj/Debug/netcoreapp2.2/Dealership.csproj.CoreCompileInputs.cache
+/Users/loewymalkovich/Desktop/Epicodus/car-dealer/obj/Debug/netcoreapp2.2/Dealership.AssemblyInfoInputs.cache
+/Users/loewymalkovich/Desktop/Epicodus/car-dealer/obj/Debug/netcoreapp2.2/Dealership.AssemblyInfo.cs
+/Users/loewymalkovich/Desktop/Epicodus/car-dealer/obj/Debug/netcoreapp2.2/Dealership.dll
+/Users/loewymalkovich/Desktop/Epicodus/car-dealer/obj/Debug/netcoreapp2.2/Dealership.pdb

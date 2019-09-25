@@ -686,23 +686,23 @@
     ]
   },
   "packageFolders": {
-    "/Users/Guest/.nuget/packages/": {},
+    "/Users/loewymalkovich/.nuget/packages/": {},
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Guest/Desktop/car-dealership/Dealership.csproj",
+      "projectUniqueName": "/Users/loewymalkovich/Desktop/Epicodus/car-dealer/Dealership.csproj",
       "projectName": "Dealership",
-      "projectPath": "/Users/Guest/Desktop/car-dealership/Dealership.csproj",
-      "packagesPath": "/Users/Guest/.nuget/packages/",
-      "outputPath": "/Users/Guest/Desktop/car-dealership/obj/",
+      "projectPath": "/Users/loewymalkovich/Desktop/Epicodus/car-dealer/Dealership.csproj",
+      "packagesPath": "/Users/loewymalkovich/.nuget/packages/",
+      "outputPath": "/Users/loewymalkovich/Desktop/Epicodus/car-dealer/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/Guest/.nuget/NuGet/NuGet.Config"
+        "/Users/loewymalkovich/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
